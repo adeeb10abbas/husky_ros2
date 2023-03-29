@@ -1,7 +1,7 @@
 husky_ros2
 [![husky_humble_build](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml/badge.svg?event=push)](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml)
 =====
-ROS2 Humble port of the packages for [Husky Rover](https://github.com/husky/husky/) which only supports ROS2 Indigo as of now. Primarily for use at Drexel Wireless Systems Lab and Zhou Robotics at Drexel. 
+ROS2 Humble port of the packages for [Husky Rover](https://github.com/husky/husky/) which only supports ROS Indigo as of now. Primarily for use at Drexel Wireless Systems Lab and Zhou Robotics at Drexel. 
 
 _______
 
