@@ -1,5 +1,9 @@
-husky
+husky_ros2
 =====
+ROS2 Humble Package for Husky Rover. Primarily for use at Drexel Wireless Systems Lab and Zhou Robotics at Drexel. 
+
+
+_______
 
 :warning: **Upgrading to ROS2 may not have the same functionally as ROS**: Contact support at support@clearpathrobotics.com.
 
