@@ -1,4 +1,4 @@
-name: husky_ci
+name: husky_humble_build
 
 on: 
   push:
