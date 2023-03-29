@@ -3,10 +3,15 @@ husky_ros2
 =====
 ROS2 Humble Package for Husky Rover. Primarily for use at Drexel Wireless Systems Lab and Zhou Robotics at Drexel. 
 
-
 _______
 
-:warning: **Upgrading to ROS2 may not have the same functionally as ROS**: Contact support at support@clearpathrobotics.com.
+## To start -
+ - Clone this repo under `src` in an overlay workspace 
+ - Install the deps - `rosdep install --from-paths src --ignore-src -y`
+ - `colcon build` from the root of the workspace
+ - Source the installation to add the right stuff to PATH - `source install/setup.bash` 
+
+To visualize in `rviz2` - `ros2 launch husky_viz view_model_launch.py`
 
 Common ROS packages for the Clearpath Husky, useable for both simulation and
 real robot operation.
