@@ -1,5 +1,5 @@
 husky_ros2
-[![husky_ci](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml/badge.svg)](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml)
+[![husky_humble_ci](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml/badge.svg)](https://github.com/adeeb10abbas/husky_ros2/actions/workflows/ci.yml)
 =====
 ROS2 Humble Package for Husky Rover. Primarily for use at Drexel Wireless Systems Lab and Zhou Robotics at Drexel. 
 
