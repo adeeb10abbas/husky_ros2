@@ -1,0 +1,21 @@
+name: husky_ci
+
+on: 
+  push:
+    braches: [main]
+    pull_request: [main]
+  schedule:
+    - cron: '0 5 * * *' # every day at 5 AM (UTC)
+
+jobs:
+  husky_humble_testing_ci:
+    name: Humble Testing
+    strategy:
+      matrix:
+        env:
+          - {ROS_DISTRO: humble, ROS_REPO: testing}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: 'ros-industrial/industrial_ci@master'
+        env: ${{matrix.env}}
