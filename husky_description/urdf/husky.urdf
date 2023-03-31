@@ -32,7 +32,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/base_link.dae"/>
+        <mesh filename="package://husky_description/meshes/base_link.mtl"/>
       </geometry>
     </visual>
     <collision>
@@ -93,7 +93,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/wheel.dae"/>
+        <mesh filename="package://husky_description/meshes/wheel.mtl"/>
       </geometry>
     </visual>
     <collision>
@@ -125,7 +125,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/wheel.dae"/>
+        <mesh filename="package://husky_description/meshes/wheel.mtl"/>
       </geometry>
     </visual>
     <collision>
@@ -157,7 +157,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/wheel.dae"/>
+        <mesh filename="package://husky_description/meshes/wheel.mtl"/>
       </geometry>
     </visual>
     <collision>
@@ -189,7 +189,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/wheel.dae"/>
+        <mesh filename="package://husky_description/meshes/wheel.mtl"/>
       </geometry>
     </visual>
     <collision>
@@ -217,7 +217,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/top_chassis.dae"/>
+        <mesh filename="package://husky_description/meshes/top_chassis.mtl"/>
       </geometry>
     </visual>
   </link>
@@ -230,7 +230,7 @@
   <link name="user_rail_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_description/meshes/user_rail.dae"/>
+        <mesh filename="package://husky_description/meshes/user_rail.mtl"/>
       </geometry>
     </visual>
   </link>
@@ -244,7 +244,7 @@
   <link name="front_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_description/meshes/bumper.dae"/>
+        <mesh filename="package://husky_description/meshes/bumper.mtl"/>
       </geometry>
     </visual>
   </link>
@@ -258,7 +258,7 @@
   <link name="rear_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_description/meshes/bumper.dae"/>
+        <mesh filename="package://husky_description/meshes/bumper.mtl"/>
       </geometry>
     </visual>
   </link>
@@ -272,13 +272,13 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/top_plate.dae"/>
+        <mesh filename="package://husky_description/meshes/top_plate.mtl"/>
       </geometry>
     </visual>
     <collision>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/top_plate.stl"/>
+        <mesh filename="package://husky_description/meshes/top_plate.obj"/>
       </geometry>
     </collision>
   </link>
