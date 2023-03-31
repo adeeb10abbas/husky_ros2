@@ -244,7 +244,7 @@
   <link name="front_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_description/meshes/bumper.mtl"/>
+        <mesh filename="package://husky_description/meshes/bumper.dae"/>
       </geometry>
     </visual>
   </link>
@@ -258,7 +258,7 @@
   <link name="rear_bumper_link">
     <visual>
       <geometry>
-        <mesh filename="package://husky_description/meshes/bumper.mtl"/>
+        <mesh filename="package://husky_description/meshes/bumper.dae"/>
       </geometry>
     </visual>
   </link>
