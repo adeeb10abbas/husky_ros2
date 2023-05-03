@@ -272,7 +272,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="package://husky_description/meshes/top_plate.mtl"/>
+        <mesh filename="package://husky_description/meshes/russ_test_obj.obj"/>
       </geometry>
     </visual>
     <collision>
